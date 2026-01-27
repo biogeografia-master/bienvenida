@@ -1,6 +1,6 @@
 ---
 title: "Biogeografía"
-subtitle: "Día 01. Bienvenida"
+subtitle: "Día 0. Bienvenida"
 author: "José Martínez, el tali"
 institute: "Universidad Autónoma de Santo Domingo (UASD)"
 date: "Actualizado: `r Sys.Date()`"
@@ -26,8 +26,8 @@ background-image: url(img/fondo.jpg)
 # ¡Bienvenidas y bienvenidos!
 
 - **Fechas**:
-  - FC-203: del **18 de agosto al 14 de diciembre, 2025**, de 4 a 8 pm
-  - **Salida de campo**: depende
+  - FC-203: del **27 de enero al 31 de mayo, 2026**, de 4 a 8 pm
+  - **Salida de campo**: depende, pero lo dudo.
 
 - **Logística**
 
@@ -59,16 +59,16 @@ background-image: url(img/fondo.jpg)
 
 ## Formulario
 
-Por favor, completa este formulario: [https://forms.gle/MiRgf1bKSTw8vZGX6](https://forms.gle/MiRgf1bKSTw8vZGX6)
+Por favor, completa este formulario: []()
 
-```{r, warning=F, message=F, echo=F}
+```{r, warning=F, message=F, echo=F, eval=F}
 library(qrcode)
 jpeg('img/qrcode-form-nombre-correo.jpg', width = 200, height = 200)
 plot(qr_code("https://forms.gle/MiRgf1bKSTw8vZGX6"))
 invisible(dev.off())
 ```
 
-![](img/qrcode-form-nombre-correo.jpg)
+<!-- ![](img/qrcode-form-nombre-correo.jpg) -->
 
 ---
 
