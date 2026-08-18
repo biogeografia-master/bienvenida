@@ -26,7 +26,7 @@ background-image: url(img/fondo.jpg)
 # ¡Bienvenidas y bienvenidos!
 
 - **Fechas**:
-  - FC-203: del **27 de enero al 31 de mayo, 2026**, de 4 a 8 pm
+  - FC-203: del **18 de agosto al ?? de diciembre, 2026**, de 4 a 8 pm
   - **Salida de campo**: depende, pero lo dudo.
 
 - **Logística**
@@ -55,20 +55,19 @@ background-image: url(img/fondo.jpg)
   
   - Recursos de aprendizaje
 
----
+<!-- --- -->
 
-## Formulario
+<!-- ## Formulario -->
 
-Por favor, completa este formulario: []()
+<!-- Por favor, completa este formulario: []() -->
 
-```{r, warning=F, message=F, echo=F, eval=F}
-library(qrcode)
-jpeg('img/qrcode-form-nombre-correo.jpg', width = 200, height = 200)
-plot(qr_code("https://forms.gle/MiRgf1bKSTw8vZGX6"))
-invisible(dev.off())
-```
+<!-- ```{r, warning=F, message=F, echo=F, eval=F} -->
+<!-- library(qrcode) -->
+<!-- jpeg('img/qrcode-form-nombre-correo.jpg', width = 200, height = 200) -->
+<!-- plot(qr_code("https://forms.gle/MiRgf1bKSTw8vZGX6")) -->
+<!-- invisible(dev.off()) -->
+<!-- ``` -->
 
-<!-- ![](img/qrcode-form-nombre-correo.jpg) -->
 
 ---
 
